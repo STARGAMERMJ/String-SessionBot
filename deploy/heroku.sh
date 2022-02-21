@@ -9,7 +9,7 @@ echo "
          B O T
 
 
-                 Credit by @tzypis
+                 Credit by @STARGAMERMJ
 "
 
 python3 generator.py
