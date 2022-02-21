@@ -19,7 +19,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"Anda harus bergabung [Channel ini]({link}) untuk menggunakan saya , Sesudah gabung coba lagi !",
+                    f"You must join [This channel]({link}) to use me. Try again after joining. !",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("• Join Channel •", url=link)]
@@ -29,4 +29,4 @@ async def must_join_channel(bot: Client, msg: Message):
             except ChatWriteForbidden:
                 pass
     except ChatAdminRequired:
-        print(f"Saya bukan admin dalam MUST_JOIN chat : {MUST_JOIN} !")
+        print(f"I'm not an admin in MUST_JOIN chat : {MUST_JOIN} !")
