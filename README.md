@@ -1,7 +1,7 @@
 ## String Session Bot
 ![Bot](https://telegra.ph/file/b85ee2b9eba888fe00abd.jpg)
 
-<i>A String Session Bot is a session taking from a Telegram account using a bot without having to go to the web replica</i>
+<i>A String Session Bot is a session taking from a Telegram account using a bot without having to go to the web replica.</i>
 
 
 ### Deploy ke Heroku
