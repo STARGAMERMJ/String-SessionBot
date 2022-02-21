@@ -6,30 +6,30 @@ class Data:
     START = """
 Halo {}
 
-Selamat datang {}
+Welcome {}
 
-Jika kamu tidak percaya bot ini, 
-1) gausah baca pesan ini
-2) blokir bot atau hapus chat
+If you don't trust this bot, 
+1) Don't read this message
+2) Block bot or delete chat
 
-Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot , Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain , Agar Tidak Delay
+This Bot Works To Help You Get Session String Via Bot, Recommendation If You Want To Retrieve String Use Another Account, So As Not To Delay
  
-**Terimakasih**
+**Thank you**
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("• Mulai Generating Session •", callback_data="generate")],
-        [InlineKeyboardButton(text="🏠 Kembali 🏠", callback_data="home")]
+        [InlineKeyboardButton("• Start Generating Session •", callback_data="generate")],
+        [InlineKeyboardButton(text="🏠 Return 🏠", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("• Mulai Generating Session •", callback_data="generate")]
+        [InlineKeyboardButton("• Start Generating Session •", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("• Mulai Generating Session •", callback_data="generate")],
+        [InlineKeyboardButton("• Start Generating Session •", callback_data="generate")],
         [InlineKeyboardButton("🐱 Developer 🐱", url="https://t.me/tzypis")],
         [
             InlineKeyboardButton("Menu Bantuan ❔", callback_data="help"),
