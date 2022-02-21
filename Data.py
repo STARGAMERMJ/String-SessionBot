@@ -30,37 +30,37 @@ This Bot Works To Help You Get Session String Via Bot, Recommendation If You Wan
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("• Start Generating Session •", callback_data="generate")],
-        [InlineKeyboardButton("🐱 Developer 🐱", url="https://t.me/tzypis")],
+        [InlineKeyboardButton("🐱 Developer 🐱", url="https://t.me/STARGAMERMJ")],
         [
-            InlineKeyboardButton("Menu Bantuan ❔", callback_data="help"),
+            InlineKeyboardButton("Help Menu ❔", callback_data="help"),
             InlineKeyboardButton("🤖 About 🤖", callback_data="about")
         ],
-        [InlineKeyboardButton("• Info Project •", url="https://t.me/ApisProject")],
+        [InlineKeyboardButton("• Info Project •", url="https://t.me/scripthelperbots")],
     ]
 
     # Help Message
     HELP = """
-👇🏻 **Perintah yang tersedia** 👇🏻
+👇🏻 **Available commands** 👇🏻
 
-/about - Tentang Bot ini
-/help - Pesan ini
-/start - Mulai Bot
-/generate - Mulai Generating Session
-/cancel - Membatalkan proses
-/restart - Membatalkan proses
+/about - About this Bot
+/help - This message
+/start - Start Bot
+/generate - Start Generating Session
+/cancel - Cancel process
+/restart - Cancel process
 """
 
     # About Message
     ABOUT = """
-**Tentang Bot ini** 
+**About this Bot** 
 
-Sebuah telegram bot untuk mengambil pyrogram dan telethon String Session
+A telegram bot to retrieve String Session pyrograms and telethons
 
-Grup Support : [Userbot Telegram](https://t.me/UserbotTelegramSupport)
+Grup Support : [Userbot Telegram](https://t.me/scripthelper360)
 
-Kerangka : [Pyrogram](docs.pyrogram.org)
+Framework : [Pyrogram](docs.pyrogram.org)
 
-Bahasa : [Python](www.python.org)
+Language : [Python](www.python.org)
 
-Developer : @tzypis
+Developer : @STARGAMERMJ
     """
