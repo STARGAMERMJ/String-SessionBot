@@ -28,27 +28,27 @@
   "repository": "https://github.com/apisuserbot/String-SessionBot",
   "env": {
     "ENVIRONMENT": {
-      "description": "Jangan ubah ANYTHING",
+      "description": "Don't change ANYTHING",
       "required": true,
       "value": "ANYTHING"
     },
     "API_ID": {
-      "description": "Ambil API_ID Di my.telegram.org",
+      "description": "Fetch API_ID In my.telegram.org",
       "required": true,
       "value": ""
     },
     "API_HASH": {
-      "description": "Ambil API_HASH Di my.telegram.org",
+      "description": "Fetch API_HASH In my.telegram.org",
       "required": true,
       "value": ""
     },
     "BOT_TOKEN": {
-      "description": "Dapatkan token bot Telegram dengan menghubungi @BotFather",
+      "description": "Get Telegram bot tokens by contacting @BotFather",
       "required": true,
       "value": ""
     },
     "MUST_JOIN": {
-      "description": "Tambakan username/id dari channel/group",
+      "description": "Add username/id of channel/group",
       "required": false,
       "value": ""
     }
