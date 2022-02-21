@@ -1,6 +1,6 @@
 {
   "name": "String Session Bot Generator",
-  "description": "Telegram bot ke generate pyrogram string session",
+  "description": "Telegram bot to generate pyogram string session",
   "logo": "https://telegra.ph/file/b85ee2b9eba888fe00abd.jpg",
   "keywords": [
     "telegram",
@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/apisuserbot/String-SessionBot",
+  "repository": "https://github.com/STARGAMERMJ/String-SessionBot",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING",
